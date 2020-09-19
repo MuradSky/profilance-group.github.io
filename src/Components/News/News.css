@@ -1,0 +1,63 @@
+.navbar .form-inline{
+    width: 100%;
+}
+.form-inline .form-control {
+    width:100%;
+}
+.btn{
+    padding: .3rem 1.5rem;
+}
+.news{
+    padding: 10px 0 0;
+}
+.news__list{
+    position: relative;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid rgb(194, 194, 194, .2);
+    padding: 10px 0 ;
+}
+.news__list:last-child{
+    border-bottom: none;
+}
+.news__list_none{
+    display: none;
+}
+.news__title{
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+.news__text{
+    width: 50%;
+    font-size: 15px;
+    color: #aaa;
+    margin: 0 0 30px;
+}
+.news__date{
+    color: rgb(0, 201, 201);
+}
+.news__msg{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font-size: 20px;
+    color: #aaa;
+    
+    
+}
+.news__add{
+    display: block;
+    font-size: 25px;
+    color: #17a2b8;
+    cursor: pointer;
+    margin: 0 0 10px;
+}
+.news__add:hover{
+    color: #4ac7da;
+}
+
+.btn-success,
+.btn-danger{
+    padding: 0 10px;
+    margin: 20px 0 0;
+}
